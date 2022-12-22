@@ -10,7 +10,7 @@ console.log(template); // Template literal
 
 
 
-#### 일반적인 경우 줄바꿈 등을 사용해야 할 때 - 멀티라인 문자열
+#### 일반적인 경우 줄바꿈 등을 사용해야 할 때 - 이스케이프 시퀀스
 ```javascript
 var template = '<ul>\n\t<li><a href="#">Home</a></li>\n</ul>';
 console.log(template);
@@ -21,7 +21,7 @@ console.log(template);
 </ul>
 ```
 
-#### 템플릿 리터널 내에서 사용할 때
+#### 템플릿 리터널 내에서 사용할 때 - 멀티라인 문자열
 ```javascript
 var template = `<ul>
   <li><a href="#">Home</a></li>
