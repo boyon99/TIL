@@ -45,11 +45,11 @@
 
 ### 가상 클래스 선택자 `:`
 
-- [`:](https://www.w3schools.com/cssref/sel_active.php)active`는 마우스를 클릭하고 있는 동안 선택한다.
+- `:active`는 마우스를 클릭하고 있는 동안 선택한다.
 - `:hover`는 마우스 커서가 올라가 있는 동안에만 선택한다.
 - `:link`는 방문하지 않은 링크를 선택하고 `:visited`는 방문 링크를 선택한다.
 - `:fouus`는 요소가 포커스되면 선택한다.
-- `:first-child`는 형제 요소 중 첫째를 `:last-child`는 마지막을  `:nth-child(*n*)`는 n번째를 선택한다.
+- `:first-child`는 형제 요소 중 첫째를 `:last-child`는 마지막을 `:nth-child(*n*)`는 n번째를 선택한다.
 
 ```
 ul > *:nth-child(n){
@@ -58,7 +58,7 @@ ul > *:nth-child(n){
 }
 ```
 
-- ``````:not(*selector)*`는 선택자가 아닌 요소를 선택한다.
+- `:not(selector)`는 선택자가 아닌 요소를 선택한다.
 - `:empty`는 선택자의 자식 요소가 없을 때 선택한다.
 
 
