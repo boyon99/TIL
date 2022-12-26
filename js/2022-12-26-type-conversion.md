@@ -116,12 +116,14 @@ if (!'')        console.log('' + ' is falsy value');
 
 
 ### 문자열 타입으로 변환
+생성자 함수를 new 연산자 없이 호출하는 방법과 빌트인 메서드를 사용하는 방법, 암묵적 타입 변환을 이용하는 방법이 있다.
 #### String 생성자 함수를 new 연산자 없이 호출하는 방법
 ```javascript
 // 숫자 타입 => 문자열 타입
 String(1);        // -> "1"
 String(NaN);      // -> "NaN"
 String(Infinity); // -> "Infinity"
+
 // 불리언 타입 => 문자열 타입
 String(true);     // -> "true"
 String(false);    // -> "false"
@@ -133,6 +135,7 @@ String(false);    // -> "false"
 (1).toString();        // -> "1"
 (NaN).toString();      // -> "NaN"
 (Infinity).toString(); // -> "Infinity"
+
 // 불리언 타입 => 문자열 타입
 (true).toString();     // -> "true"
 (false).toString();    // -> "false"
@@ -144,6 +147,7 @@ String(false);    // -> "false"
 1 + '';        // -> "1"
 NaN + '';      // -> "NaN"
 Infinity + ''; // -> "Infinity"
+
 // 불리언 타입 => 문자열 타입
 true + '';     // -> "true"
 false + '';    // -> "false"
@@ -154,29 +158,30 @@ false + '';    // -> "false"
 
 
 ### 숫자 타입으로 변환
+생성자 함수를 new 연산자 없이 호출하는 방법과 빌트인 메서드를 사용하는 방법, 암묵적 타입 변환을 이용하는 방법이 있다.
+
 #### Number 생성자 함수를 new 연산자 없이 호출하는 방법
 ```javascript
 // 문자열 타입 => 숫자 타입
 Number('0');     // -> 0
-Number('-1');    // -> -1
 Number('10.53'); // -> 10.53
+
 // 불리언 타입 => 숫자 타입
 Number(true);    // -> 1
 Number(false);   // -> 0
 ```
-#### parseInt, parseFloat 함수를 사용하는 방법(문자열만 변환 가능)
+#### parseInt, parseFloat 함수를 사용하는 방법 (문자열만 변환 가능)
 ```javascript
 // 문자열 타입 => 숫자 타입
 parseInt('0');       // -> 0
-parseInt('-1');      // -> -1
 parseFloat('10.53'); // -> 10.53
 ```
 #### + 단항 산술 연산자를 이용하는 방법
 ```javascript
 // 문자열 타입 => 숫자 타입
-+'0';     // -> 0
 +'-1';    // -> -1
 +'10.53'; // -> 10.53
+
 // 불리언 타입 => 숫자 타입
 +true;    // -> 1
 +false;   // -> 0
@@ -186,8 +191,8 @@ parseFloat('10.53'); // -> 10.53
 ```javascript
 // 문자열 타입 => 숫자 타입
 '0' * 1;     // -> 0
-'-1' * 1;    // -> -1
 '10.53' * 1; // -> 10.53
+
 // 불리언 타입 => 숫자 타입
 true * 1;    // -> 1
 false * 1;   // -> 0
@@ -198,12 +203,13 @@ false * 1;   // -> 0
 
 
 ### 불리언 타입으로 변환
+false 값으로는 `false` `undefined` `null` `0` `-0` `NaN` `''(빈 문자열)`이 있다.
 #### Boolean 생성자 함수를 new 연산자 없이 호출하는 방법
 ```javascript 
 // 문자열 타입 => 불리언 타입
 Boolean('x');       // -> true
 Boolean('');        // -> false
-Boolean('false');   // -> true
+Boolean('false');   // -> true (빈 문자열이 아니므로)
 
 // 숫자 타입 => 불리언 타입
 Boolean(0);         // -> false
@@ -224,26 +230,8 @@ Boolean([]);        // -> true
 
 #### ! 부정 논리 연산자를 두번 사용하는 방법
 ```javascript
-// 문자열 타입 => 불리언 타입
 !!'x';       // -> true
 !!'';        // -> false
-!!'false';   // -> true
-
-// 숫자 타입 => 불리언 타입
-!!0;         // -> false
-!!1;         // -> true
-!!NaN;       // -> false
-!!Infinity;  // -> true
-
-// null 타입 => 불리언 타입
-!!null;      // -> false
-
-// undefined 타입 => 불리언 타입
-!!undefined; // -> false
-
-// 객체 타입 => 불리언 타입
-!!{};        // -> true
-!![];        // -> true
 ```
 
 
