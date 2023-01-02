@@ -104,7 +104,7 @@ console.log(descriptor);
 
 ## 프로퍼티 정의
 새로운 프로퍼티를 추가하면서 프로퍼티 어트리뷰트를 명시적으로 정의하거나 기존 프로퍼티의 프로퍼티 어트리뷰트를 재정의하는 것을 말한다.
-`Object.defineProperty` 메서드를 사용하면 프로퍼티의 어트리뷰트를 정의할 수 있다.
+`Object.defineProperty`나 `Object.defineProperties` 메서드를 사용하면 프로퍼티의 어트리뷰트를 정의할 수 있다.
 ```js
 const person = {};
 
