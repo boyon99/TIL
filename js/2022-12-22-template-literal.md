@@ -10,7 +10,7 @@ console.log(template); // Template literal
 
 
 
-#### 일반적인 경우 줄바꿈 등을 사용해야 할 때 - 이스케이프 시퀀스
+#### 일반적인 경우 줄바꿈 등을 사용해야 할 때 - [이스케이프 시퀀스](https://github.com/boyon99/TIL/blob/main/js/2022-12-22-escape-sequence.md)
 ```javascript
 var template = '<ul>\n\t<li><a href="#">Home</a></li>\n</ul>';
 console.log(template);
