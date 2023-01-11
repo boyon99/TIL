@@ -1,29 +1,25 @@
 # 배열 메소드
 Array 생성자 함수는 정적 메서드를 제공하며 Array.prototype은 프로토타입 메서드를 제공한다. 
-> ### true false 반환
-> - [Array.isArray](#isArray) 
-> - [Array.prototype.includes](#includes)
->
-> ### 인덱스 반환
-> - [Array.prototype.indexOf](#indexOf)
->
-> ### 제거
-> - [Array.prototype.pop](#pop)
-> - [Array.prototype.shift](#shift)
-> - [Array.prototype.splice](#splice)
->
-> ### 추가
-> - [Array.prototype.push](#push)
-> - [Array.prototype.unshift](#unshift)
-> - [Array.prototype.concat](#concat)
-> - [Array.prototype.splice](#splice)
->
-> ### 변환
-> - [Array.prototype.slice](#slice)
-> - [Array.prototype.join](#join)
-> - [Array.prototype.reverse](#reverse)
-> - [Array.prototype.fill](#fill)
-> - [Array.prototype.flat](#flat)
+#### true false 반환
+- [Array.isArray](#isArray) 
+- [Array.prototype.includes](#includes)
+#### 인덱스 반환
+- [Array.prototype.indexOf](#indexOf)
+#### 제거
+- [Array.prototype.pop](#pop)
+- [Array.prototype.shift](#shift)
+- [Array.prototype.splice](#splice)
+#### 추가
+- [Array.prototype.push](#push)
+- [Array.prototype.unshift](#unshift)
+- [Array.prototype.concat](#concat)
+- [Array.prototype.splice](#splice)
+#### 변환
+- [Array.prototype.slice](#slice)
+- [Array.prototype.join](#join)
+- [Array.prototype.reverse](#reverse)
+- [Array.prototype.fill](#fill)
+- [Array.prototype.flat](#flat)
 
 <br/>
 
