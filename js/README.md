@@ -84,3 +84,23 @@
 ### 23장, 24장
 - 실행 컨텍스트
 - 클로저
+
+### 25장
+- [클래스](https://github.com/boyon99/TIL/blob/main/js/2023-01-09-class.md)
+
+### 26장
+- [Rest 파라미터](https://github.com/boyon99/TIL/blob/main/js/2023-01-10-rest-parameters.md)
+
+### 27장
+- [배열](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-array.md)
+- [배열 메서드](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-array-methods.md)
+- [배열 고차함수](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-array-higher-order-function.md)
+
+### 28장
+- [Number](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-number.md)
+
+### 29장
+- [Math](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-math.md)
+
+### 30장
+- [Date](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-date.md)
