@@ -104,3 +104,18 @@
 
 ### 30장
 - [Date](https://github.com/boyon99/TIL/blob/main/js/2023-01-11-date.md)
+
+### 31장
+- [RegExp](https://github.com/boyon99/TIL/blob/main/js/2023-01-12-RegExp.md)
+
+### 32장
+- [string](https://github.com/boyon99/TIL/blob/main/js/2023-01-12-string.md)
+
+### 33장
+- [Symbol](https://github.com/boyon99/TIL/blob/main/js/2023-01-12-symbol.md)
+
+### 34장
+- [이터러블](https://github.com/boyon99/TIL/blob/main/js/2023-01-13-iterable.md)
+
+### 35장
+- [스프레드 문법](https://github.com/boyon99/TIL/blob/main/js/2023-01-13-spread-syntax.md)
