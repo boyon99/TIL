@@ -1,5 +1,5 @@
 ## 다양한 함수의 형태
-### 즉시 실행 함수
+### 즉시 실행 함수 (IIFE, Immediately Invoked Function Expression)
 함수 정의와 동시에 호출되는 함수를 의미하며 단 한 번만 호출되며 다시 호출할 수 없다.
 ```javascript
 // 익명 즉시 실행 함수
