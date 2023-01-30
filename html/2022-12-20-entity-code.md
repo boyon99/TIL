@@ -14,6 +14,6 @@ HTML 문서에서 문자들은 유니코드 UTF-8 코드체계로 작성되는 �
 
 <br/>
 
-
-> 더 자세한 사항은 [HTML Symbols Code Table](http://cactus.io/resources/toolbox/html-symbol-codes)나 [HTML 기호, 엔터티 및 ASCII 문자 코드에 대한 참조
+### Reference
+더 자세한 사항은 [HTML Symbols Code Table](http://cactus.io/resources/toolbox/html-symbol-codes)나 [HTML 기호, 엔터티 및 ASCII 문자 코드에 대한 참조
 ](https://www.toptal.com/designers/htmlarrows/)에서 확인할 수 있다.

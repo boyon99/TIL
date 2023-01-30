@@ -6,4 +6,7 @@
  <tag attribute name=”attribute value”/> 
 ```
 
-> [tcpschool html-tags](http://www.tcpschool.com/html-tags/intro) 또는 [mozila html-element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)에서 더 자세한 사항을 참고할 수 있다.
+<br/>
+
+### Reference
+[tcpschool html-tags](http://www.tcpschool.com/html-tags/intro) 또는 [mozila html-element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)에서 더 자세한 사항을 참고할 수 있다.
