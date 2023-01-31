@@ -1,7 +1,8 @@
 # TIL
 
 ### Reference
-- https://developer.mozilla.org/ko/
-- http://www.tcpschool.com/
-- https://www.w3schools.com/
+- Web Docs
+  - [mozilla](https://developer.mozilla.org/ko)
+  - [tcpschool](http://www.tcpschool.com)
+  - [w3schools](https://www.w3schools.com)
 
