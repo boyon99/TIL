@@ -49,9 +49,9 @@
 - `:hover`는 마우스 커서가 올라가 있는 동안에만 선택한다.
 - `:link`는 방문하지 않은 링크를 선택하고 `:visited`는 방문 링크를 선택한다.
 - `:fouus`는 요소가 포커스되면 선택한다.
-- `:first-child`는 형제 요소 중 첫째를 `:last-child`는 마지막을 `:nth-child(*n*)`는 n번째를 선택한다.
+- `:first-child`는 형제 요소 중 첫째를 `:last-child`는 마지막을 `:nth-child(n)`는 n번째를 선택한다.
 
-```
+```css
 ul > *:nth-child(n){
     color: aquamarine; /* 모든 항목의 색상이 변경됨
 2n인 경우 짝수, 2n+1은 홀수이며 n+2는 2번 이외에 모든 색상을 의미한다 */
@@ -61,6 +61,9 @@ ul > *:nth-child(n){
 - `:not(selector)`는 선택자가 아닌 요소를 선택한다.
 - `:empty`는 선택자의 자식 요소가 없을 때 선택한다.
 
+<br/>
+
+[가상 클래스 선택자](https://developer.mozilla.org/ko/docs/Web/CSS/:active)에서 더 많은 가상 클래스 선택자를 확인할 수 있다.
 
 <br/>
 
@@ -86,12 +89,20 @@ ul > *:nth-child(n){
 
 <br/>
 
+[가상 요소 선택자](https://developer.mozilla.org/ko/docs/Web/CSS/::after)에서 더 많은 가상 요소 선택자를 확인할 수 있다.
+
+<br/>
 
 ### 속성선택자 `[]`
 
-1. 속성선택자 `[type]`은 해당 속성이 포함된 요소를 선택한다. 
-2. `[attr=value]`는 일치하는 요소를, `[attr^=value]` 는 시작을, `[attr$=value]` 는 끝을, `[attr*=value]` 은 값이 포함된 요소를 선택한다. 
-3. `[attr~=title]` 는 속성의 title 값이 `[attr|=lang]` 은 lang 값이 일치하는 요소를 선택한다.
+- 속성선택자 `[type]`은 해당 속성이 포함된 요소를 선택한다. 
+- `[attr=value]`는 일치하는 요소를 `[attr^=value]` 는 시작을 `[attr$=value]` 는 끝을 `[attr*=value]` 은 값이 포함된 요소를 선택한다. 
+- `[attr~=title]` 는 속성의 title 값이 `[attr|=lang]` 은 lang 값이 일치하는 요소를 선택한다.
+
+<br/>
+
+[속성 선택자](https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors)에서 더 많은 속성선택자를 확인할 수 있다.
+
 
 
 <br/>
