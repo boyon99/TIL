@@ -66,7 +66,7 @@
 
 
 ### 19장
-- 프로토타입
+- [ ] 프로토타입
 
 
 ### 20장
@@ -82,8 +82,8 @@
 
 
 ### 23장, 24장
-- 실행 컨텍스트
-- 클로저
+- [ ] 실행 컨텍스트
+- [ ] 클로저
 
 ### 25장
 - [클래스](https://github.com/boyon99/TIL/blob/main/js/2023-01-09-class.md)
@@ -119,3 +119,49 @@
 
 ### 35장
 - [스프레드 문법](https://github.com/boyon99/TIL/blob/main/js/2023-01-13-spread-syntax.md)
+
+### 36장
+- [ ] 디스트럭처링 할당 (구조분해 할당)
+
+### 37장
+- [set](https://github.com/boyon99/TIL/blob/main/js/2023-01-14-set.md)
+- [map](https://github.com/boyon99/TIL/blob/main/js/2023-01-14-map.md)
+
+### 38장
+- [ ] 브라우저의 렌더링 과정
+
+### 39장
+- [X] DOM
+
+### 40장
+- [X] 이벤트
+
+### 41장
+- [타이머](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-timer.md)
+
+### 42장
+- [비동기 프로그래밍](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-asynchronus.md)
+
+### 43장
+- [Ajax](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-Ajax.md)
+- [ ] xmlhttprequest
+
+### 44장
+- [REST API](https://github.com/boyon99/TIL/blob/main/js/2023-02-03-rest-api.md)
+
+### 45장
+- [ ] 프로미스
+
+### 46장
+- [ ] 제너레이터
+- [async/await]()
+
+### 47장
+- [에러 처리]()
+
+### 48장
+- [모듈]()
+
+### 49장
+- [Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축]()
+
