@@ -33,13 +33,11 @@ var value = elem && elem.value; // -> null
 #### 함수 매개변수에 기본값을 설정할 때
 ```javascript
 // 단축 평가를 사용한 매개변수의 기본값 설정
-function getStringLength(str) {
-  str = str || '';
-  return str.length;
-}
+let obj;
+obj = obj + 1 || 1
+obj = obj + 1 || 1
 
-getStringLength();     // -> 0
-getStringLength('hi'); // -> 2
+console.log(obj) // 2
 ```
 
 
