@@ -47,6 +47,7 @@ console.log(decreaser()); // -2
 
 
 ## 함수 객체의 프로퍼티
+다음과 같은 함수 객체의 데이터 프로퍼티를 얻을 수 있다.
 ```js
 function square(number) {
   return number * number;
