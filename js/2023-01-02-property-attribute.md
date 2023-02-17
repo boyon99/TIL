@@ -1,15 +1,15 @@
 ## 내부 슬롯과 내부 메서드
 자바스크립트 구현 알고리즘을 설명하기 위해 사용하는 의사 프로퍼티와 의사 메서드이다. 
 `[[]]`와 같이 이중 대괄호로 감싼 이름들이 내부 슬롯과 내부 메소드로 개발자가 직접 접근할 수 있도록 외부에 공개된 객체의 프로퍼티는 아니다. 
-단 일부에 한해 간접적으로 접근할 수 있는 수단을 제공하기는 한다.
+단 일부에 한해 간접적으로 접근할 수 있는 수단을 제공하기는 한다. 예를 들어 모든 객체는 `[[prototype]]`이라는 내부 슬롯을 가지며 `__proto__`를 통해 간접적으로 접근할 수 있다.
 
 <br/>
 
 
 ## 프로퍼티 어트리뷰트와 프로퍼티 디스크립터 객체
 자바스크립트 엔진은 프로퍼티를 생성할 때 프로퍼티의 상태를 나타내는 프로퍼티 어트리뷰트를 기본값으로 자동 정의한다. 
-프로퍼티의 상태란 프로퍼티의 값, 값의 갱신 가능 여부, 열거 가능 여부, 재정의 가능 여부를 말한다. 
-이는 내부 상태 값으로 `Object.getOwnPropertyDescriptor`과 `Object.getOwnPropertyDescriptors` 메서드로 간접적으로 확인할 수 있다.
+프로퍼티의 상태란 프로퍼티의 값`[[value]]`, 값의 갱신 가능 여부`[[writalbe]]`, 열거 가능 여부`[[enumeralbe]]`, 재정의 가능 여부`[[configuralbe]]`를 말한다. 
+이는 내부 상태 값으로 `Object.getOwnPropertyDescriptor`과 `Object.getOwnPropertyDescriptors` 메서드로 간접적으로 확인할 수 있으며 프로퍼티 어트리뷰트 정보를 제공하는 **프로퍼티 디스크립터 객페**를 반환한다.
 ```js
 const person = {
   name: 'Lee'
@@ -20,23 +20,6 @@ console.log(Object.getOwnPropertyDescriptor(person, 'name'));
 // {value: "Lee", writable: true, enumerable: true, configurable: true}
 ```
 
-```js
-const person = {
-  name: 'Lee'
-};
-
-// 프로퍼티 동적 생성
-person.age = 20;
-
-// 모든 프로퍼티의 프로퍼티 어트리뷰트 정보를 제공하는 프로퍼티 디스크립터 객체들을 반환한다.
-console.log(Object.getOwnPropertyDescriptors(person));
-/*
-{
-  name: {value: "Lee", writable: true, enumerable: true, configurable: true},
-  age: {value: 20, writable: true, enumerable: true, configurable: true}
-}
-*/
-```
 
 <br/>
 
@@ -85,18 +68,6 @@ console.log(person); // {firstName: "Heegun", lastName: "Lee"}
 // 접근자 프로퍼티를 통한 프로퍼티 값의 참조
 // 접근자 프로퍼티 fullName에 접근하면 getter 함수가 호출된다.
 console.log(person.fullName); // Heegun Lee
-
-// firstName은 데이터 프로퍼티다.
-// 데이터 프로퍼티는 [[Value]], [[Writable]], [[Enumerable]], [[Configurable]] 프로퍼티 어트리뷰트를 갖는다.
-let descriptor = Object.getOwnPropertyDescriptor(person, 'firstName');
-console.log(descriptor);
-// {value: "Heegun", writable: true, enumerable: true, configurable: true}
-
-// fullName은 접근자 프로퍼티다.
-// 접근자 프로퍼티는 [[Get]], [[Set]], [[Enumerable]], [[Configurable]] 프로퍼티 어트리뷰트를 갖는다.
-descriptor = Object.getOwnPropertyDescriptor(person, 'fullName');
-console.log(descriptor);
-// {get: ƒ, set: ƒ, enumerable: true, configurable: true}
 ```
 
 <br/>
