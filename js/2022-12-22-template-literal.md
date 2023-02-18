@@ -57,3 +57,19 @@ console.log(`1 + 2 = ${1 + 2}`); // 1 + 2 = 3
 
 
 ```
+
+<br/>
+
+
+#### Tagged Template Literals
+```js
+// 문자열은 첫 번째 매개변수에 변수는 두번째 매개변수에 저장된다.
+let vars = 'vars';
+
+function tagged(str, vars) {
+  console.log(str) // [ 'str1 ', ' str2' ]
+  console.log(vars) // vars
+}
+
+tagged`str1 ${vars} str2`
+```
