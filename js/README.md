@@ -141,7 +141,7 @@
 ### 31장
 
 - [RegExp](https://github.com/boyon99/TIL/blob/main/js/2023-01-12-RegExp.md)
-  > [패턴](https://github.com/KDT1-FE/KDT4-Theory-JS/blob/main/RegExp.md) <br/> > [정규표현식 테스트 사이트](https://regexr.com/)
+  > [패턴](https://github.com/KDT1-FE/KDT4-Theory-JS/blob/main/RegExp.md) <br/> [정규표현식 테스트 사이트](https://regexr.com/)
 
 ### 32장
 
@@ -179,7 +179,7 @@
 ### 39장
 
 - [x] DOM
-  > [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/> [mdn - dom이란?](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) <br/> [mdn - dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model) <br/>[deep dive - dom 정리](https://poiemaweb.com/js-dom)
+  > [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/> [mdn 문서 - dom이란?](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) & [dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model) <br/>[deep dive | dom](https://poiemaweb.com/js-dom)
 
 ### 40장
 
@@ -235,4 +235,4 @@
 ### 49장
 
 - [x] Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축
-  > [webpack 실습 레포](https://github.com/boyon99/Webpack)<br/> [parcel 실습 레포](https://github.com/boyon99/Parcel)
+  > [webpack](https://github.com/boyon99/Webpack) & [parcel 실습 레포](https://github.com/boyon99/Parcel)
