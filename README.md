@@ -11,6 +11,8 @@
 ## 실습
 
 https://cdnjs.com/libraries 여기서 인기 높은 순서대로 사용해보기
+라이브러리 검색 방법 - github / npm trends / 프론트엔드 커뮤니티 / 기술 블로그 등
+https://www.npmjs.com/
 
 ## other
 
@@ -21,3 +23,4 @@ https://cdnjs.com/libraries 여기서 인기 높은 순서대로 사용해보기
 
 - 디자인 패턴
   - https://refactoring.guru/ko/design-patterns
+- [운영체제](./img/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.png)
