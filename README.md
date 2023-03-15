@@ -21,6 +21,10 @@ https://www.npmjs.com/
   - js(react)만으로 풀스택 개발 가능 - nextjs nuxtjs sveltekit remix (server-side rendering 가능하게 해줌)
   - spa - react vue angular svelte (single page application) → 수많은 변수 관리가 어려움, 이를 도와주는 것이 `state management` , 이를 관리하는 외부 라이브러리 redux, recoil, mobx 등
 
+## CS
+
+> 디자인 패턴, 운영체제, 데이터베이스, 자료 구조, 네트워크
+
 - 디자인 패턴
   - https://refactoring.guru/ko/design-patterns
 - [운영체제](./img/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.png)
