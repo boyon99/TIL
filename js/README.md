@@ -85,7 +85,8 @@
 ### 19장
 
 - [ ] 프로토타입
-  > [모던 자바스크립트 Deep Dive | 프로토타입](https://velog.io/@april_5/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Deep-Dive-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
+
+> [모던 자바스크립트 Deep Dive | 프로토타입](http s://velog.io/@april_5/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Deep-Dive-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
 
 ### 20장
 
@@ -141,7 +142,8 @@
 ### 31장
 
 - [RegExp](https://github.com/boyon99/TIL/blob/main/js/2023-01-12-RegExp.md)
-  > [패턴](https://github.com/KDT1-FE/KDT4-Theory-JS/blob/main/RegExp.md) <br/> [정규표현식 테스트 사이트](https://regexr.com/)
+
+> [KDT4-Theory-JS | 정규표현식 패턴](https://github.com/KDT1-FE/KDT4-Theory-JS/blob/main/RegExp.md) <br/> [정규표현식 테스트 사이트](https://regexr.com/)
 
 ### 32장
 
@@ -179,7 +181,8 @@
 ### 39장
 
 - [x] DOM
-  > [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/> [mdn 문서 - dom이란?](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) & [dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model) <br/>[deep dive | dom](https://poiemaweb.com/js-dom)
+
+> [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/> [mdn | dom](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) & [dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model) <br/>[모던 자바스크립트 Deep Dive | dom](https://poiemaweb.com/js-dom)
 
 ### 40장
 
@@ -203,12 +206,15 @@
 - [Ajax](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-Ajax.md)
 - [XMLHttpRequest](https://github.com/boyon99/TIL/blob/main/js/2023-02-19-XMLHttpRequest.md)
 
+> [Ajax 실습 레포](https://github.com/boyon99/Ajax)
+
 `json` `Ajax`
 
 ### 44장
 
 - [REST API](https://github.com/boyon99/TIL/blob/main/js/2023-02-03-rest-api.md)
-  > https://github.com/boyon99/REST-API
+
+> [REST API 실습 레포](https://github.com/boyon99/REST-API)
 
 `json` `XMLHttpRequest`
 
@@ -235,4 +241,5 @@
 ### 49장
 
 - [x] Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축
-  > [webpack](https://github.com/boyon99/Webpack) & [parcel 실습 레포](https://github.com/boyon99/Parcel)
+
+> [webpack](https://github.com/boyon99/Webpack) & [parcel 실습 레포](https://github.com/boyon99/Parcel)
