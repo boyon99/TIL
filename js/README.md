@@ -203,7 +203,7 @@
 - [Ajax](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-Ajax.md)
 - [XMLHttpRequest](https://github.com/boyon99/TIL/blob/main/js/2023-02-19-XMLHttpRequest.md)
 
-`json`
+`json` `Ajax`
 
 ### 44장
 
