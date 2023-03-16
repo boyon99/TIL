@@ -208,7 +208,7 @@
 - [Ajax](https://github.com/boyon99/TIL/blob/main/js/2023-02-02-Ajax.md)
 - [XMLHttpRequest](https://github.com/boyon99/TIL/blob/main/js/2023-02-19-XMLHttpRequest.md)
 
-> [Ajax 실습 레포](https://github.com/boyon99/Ajax)
+> 📌 [Ajax 실습 레포](https://github.com/boyon99/Ajax)
 
 `json` `Ajax`
 
@@ -216,7 +216,7 @@
 
 - [REST API](https://github.com/boyon99/TIL/blob/main/js/2023-02-03-rest-api.md)
 
-> [REST API 실습 레포](https://github.com/boyon99/REST-API)
+> 📌 [REST API 실습 레포](https://github.com/boyon99/REST-API)
 
 `json` `XMLHttpRequest`
 
@@ -244,4 +244,4 @@
 
 - [x] Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축
 
-> [webpack](https://github.com/boyon99/Webpack) & [parcel 실습 레포](https://github.com/boyon99/Parcel)
+> 📌 [webpack](https://github.com/boyon99/Webpack) & [parcel 실습 레포](https://github.com/boyon99/Parcel)
