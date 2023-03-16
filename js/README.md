@@ -86,7 +86,7 @@
 
 - [ ] 프로토타입
 
-> [모던 자바스크립트 Deep Dive | 프로토타입](http s://velog.io/@april_5/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Deep-Dive-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
+> [모던 자바스크립트 Deep Dive | 프로토타입](https://velog.io/@april_5/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Deep-Dive-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
 
 ### 20장
 
@@ -182,7 +182,7 @@
 
 - [x] DOM
 
-> [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/> [mdn | dom](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) & [dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model) <br/>[모던 자바스크립트 Deep Dive | dom](https://poiemaweb.com/js-dom)
+> [dom core 호환성 표](https://quirksmode.org/dom/core/)<br/>[모던 자바스크립트 Deep Dive | dom](https://poiemaweb.com/js-dom)와 [mdn | dom](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction) & [dom api](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model)
 
 ### 40장
 
