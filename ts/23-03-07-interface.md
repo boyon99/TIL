@@ -1,6 +1,6 @@
 # 인터페이스 Interface
 
-인터페이스(Interface)는 타입스크립트 여러 객체를 정의하는 일종의 규칙이며 구조로 다음과 같이 `interface` 키워드와 함께 사용한다. 타입별칭과는 다르게 중복선언이 가능하며 `extends` 키워드를 사용하여 상속할 수 있다.
+인터페이스(Interface)는 타입스크립트 여러 객체를 정의하는 일종의 규칙이며 구조로 다음과 같이 `interface` 키워드와 함께 사용한다. 타입별칭과는 다르게 중복선언이 가능하며 `extends` 키워드를 사용하여 상속할 수 있다. `사용자 정의 자료형`이라고 할 수 있다.
 
 ```ts
 interface IUser {
@@ -26,8 +26,8 @@ let user2: IUser = {
 
 ```ts
 interface IUser {
-  name: string,
-  age: number
+  name: string;
+  age: number;
 }
 // Or
 interface IUser {
@@ -36,8 +36,8 @@ interface IUser {
 }
 // Or
 interface IUser {
-  name: string
-  age: number
+  name: string;
+  age: number;
 }
 ```
 
@@ -93,18 +93,18 @@ interface IName {
 
 ```ts
 interface User {
-  name: string
+  name: string;
 }
 interface GetUser {
-  (name: string): User
+  (name: string): User;
 }
 
 // 매개 변수 이름이 인터페이스와 일치할 필요가 없다.
-const getUser: GetUser = name => {
+const getUser: GetUser = (name) => {
   // ...
-  return { name }
-}
-getUser('Heropy')
+  return { name };
+};
+getUser("Heropy");
 ```
 
 <br/>
@@ -168,7 +168,6 @@ interface INAME {
   [INDEXER_NAME: INDEXER_TYPE]: RETURN_TYPE; // Index signature
 }
 ```
-
 
 ```ts
 interface IItem {
@@ -246,34 +245,35 @@ country = "러시아"; // Error - TS2322: Type '"러시아"' is not assignable t
 
 ```ts
 interface Animal {
-  name: string
+  name: string;
 }
 interface Cat extends Animal {
-  meow(): string
+  meow(): string;
 }
 
 class Cat implements Cat {
   constructor(public name: string) {}
   meow() {
-    return 'MEOW~'
+    return "MEOW~";
   }
 }
-const cat = new Cat('Luxy')
+const cat = new Cat("Luxy");
 ```
 
 #### 같은 이름의 인터페이스를 여러 개 만들 수 있다. 기존에 만들어진 인터페이스에 내용을 추가하는 경우 유용하다.
+
 ```js
 interface IFullName {
-  firstName: string,
-  lastName: string
+  firstName: string;
+  lastName: string;
 }
 interface IFullName {
-  middleName: string
+  middleName: string;
 }
 
 const fullName: IFullName = {
-  firstName: 'Tomas',
-  middleName: 'Sean',
-  lastName: 'Connery'
+  firstName: "Tomas",
+  middleName: "Sean",
+  lastName: "Connery",
 };
 ```
