@@ -122,5 +122,6 @@ $ git config --global core.pager "cat"
 
 - `git remote add [저장소이름] [깃허브주소]` : 연결할 깃허브 주소와 저장소 이름을 설정한다.
   - `git remote -v` : 원격저장소를 확인한다.
+  - `git remote remove [저장소이름]` : 원격저장소를 삭제한다.
 - `git clone [깃허브주소]` : 원격저장소를 복제하여 지역저장소로 가져온다.
 - `git fetch` : 커밋을 가져와 합치는 풀 명령과 다르게 원격 브랜치에 어떤 변화가 있는지 그 정보만 가져온다.
