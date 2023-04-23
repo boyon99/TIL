@@ -12,7 +12,6 @@
 - [클래스](./23-03-07-class.md)
 - [모듈](./23-03-07-module.md)
 - [유틸리티 타입](./23-03-08-utility-types.md)
-
 - [optional](./23-03-08-optional.md)
 - [타입스크립트로 HTML 변경과 조작할 때 주의점](./23-03-09-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A1%9C-HTML-%EB%B3%80%EA%B2%BD%EA%B3%BC-%EC%A1%B0%EC%9E%91%ED%95%A0%EB%95%8C-%EC%A3%BC%EC%9D%98%EC%A0%90.md)
 - [React 프로젝트에서 Typescript 사용할 경우](./23-03-09-react%EC%97%90%EC%84%9C-TS%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
