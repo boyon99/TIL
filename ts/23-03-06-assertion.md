@@ -16,8 +16,8 @@ function fnA(x: number | null | undefined) {
 
 ```js
 // Non-null assertion operator으로 오류를 해결하는 방법
-function fnE(x: number | null | undefined) {
-  return x!.toFixed(2);
+function fnA(x: number | null | undefined) : number{
+  return x!; // 타입이 null이나 undefined일 수 있으므로 오류 발생
 }
 ```
 
