@@ -1,5 +1,3 @@
 # TIL
 
-- [2023 로드맵](https://roadmap.sh/frontend)
-
-<img src="./img/frontend-roadmap.png" width="500px"/>
+- [위키 바로가기](https://github.com/boyon99/TIL/wiki)
