@@ -1,7 +1,5 @@
 # 이벤트 헨들링
 
-> [상세코드](../src/4/ValidationSample.js)에서 확인할 수 있다.
-
 ## 이벤트를 사용할 때 주의사항
 
 - 이벤트 이름은 카멜 표기법으로 작성한다. `onClick` `onKeyUp`
@@ -16,13 +14,13 @@
 하나의 요소에 이벤트가 발생하면, 해당 요소의 이벤트 핸들러 (함수) 가 작동하고, 이어서 그 부모 요소의 이벤트 핸들러가 작동하고, 그렇게 최상단의 요소까지 각 요소에 할당된 핸들러가 작동한다.
 
 ```js
-import React from 'react';
+import React from "react";
 
 function Bubble() {
   return (
-    <div onClick={() => alert('나는 div')}>
+    <div onClick={() => alert("나는 div")}>
       div입니다.
-      <p onClick={() => alert('나는 p')}>p입니다.</p>
+      <p onClick={() => alert("나는 p")}>p입니다.</p>
     </div>
   );
 }
@@ -33,7 +31,7 @@ export default Bubble;
 이러한 버블링으로 인해 `event.target` 과 `event.currentTarget`이 다르게 나타난다.
 
 ```js
-import React from 'react';
+import React from "react";
 
 function Bubble() {
   const onClick = (e) => {
@@ -63,7 +61,7 @@ export default Bubble;
 const Test = () => {
   const onClick = (e) => {
     e.stopPropagation();
-    console.log('onclick');
+    console.log("onclick");
   };
   return (
     <div>
@@ -82,7 +80,7 @@ const Test = () => {
 ```js
 const Test = () => {
   const onClick = () => {
-    console.log('onclick');
+    console.log("onclick");
   };
   return (
     <div>
