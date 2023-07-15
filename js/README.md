@@ -1,3 +1,22 @@
+## JS
+- [미리 정의된 전역 함수](https://github.com/boyon99/TIL/blob/main/js/22-12-25-predefined-functions.md)
+- [falsy](https://github.com/boyon99/TIL/blob/main/js/23-01-04-falsy.md)
+- [JS 객체의 분류](https://github.com/boyon99/TIL/blob/main/js/23-01-06-built-in-objects.md)
+- [web worker](https://github.com/boyon99/TIL/blob/main/js/23-02-17-web-worker.md)
+- [JSdoc](https://github.com/boyon99/TIL/blob/main/js/23-03-09-JSDoc.md)
+- [cookie](https://github.com/boyon99/TIL/blob/main/js/23-03-09-cookie.md)
+- [history](https://github.com/boyon99/TIL/blob/main/js/23-03-09-history.md)
+- [location](https://github.com/boyon99/TIL/blob/main/js/23-03-09-location.md)
+- [storage](https://github.com/boyon99/TIL/blob/main/js/23-03-09-storage.md)
+- [불변성과 가변성](https://github.com/boyon99/TIL/blob/main/js/23-03-15-Immutability-Mutability.md)
+- [리플로우와 리페인트](https://github.com/boyon99/TIL/blob/main/js/23-03-15-Reflow-Repaint.md)
+- [가비지 컬렉션](https://github.com/boyon99/TIL/blob/main/js/23-03-15-garbage-collection.md)
+- [메모리 누수](https://github.com/boyon99/TIL/blob/main/js/23-03-15-memory-leak.md)
+- [얕은 복사와 깊은 복사](https://github.com/boyon99/TIL/blob/main/js/23-03-15-%EC%96%95%EC%9D%80%EB%B3%B5%EC%82%AC%EC%99%80-%EA%B9%8A%EC%9D%80%EB%B3%B5%EC%82%AC.md)
+
+
+<br/>
+
 ## 모던 자바스크립트 DEEP DIVE
 
 ### 4장
@@ -232,7 +251,7 @@
 
 ### 47장
 
-- [에러 처리](https://github.com/boyon99/TIL/tree/main/js)
+- [에러 처리](https://github.com/boyon99/TIL/blob/main/js/23-02-03-error.md)
 
 ### 48장
 
