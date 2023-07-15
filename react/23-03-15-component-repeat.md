@@ -2,14 +2,12 @@
 
 컴포넌트 반복시 `map()`함수를 사용하고 데이터를 추가할 경우에는 기존 배열을 변경하는 `push()`대신 새로운 배열을 생성하는 `concat()`함수를 사용한다. 데이터 제거 시에는 `filter()`함수를 사용한다.
 
-> [상세코드](../src/6/IterationSample.jsx)에서 확인할 수 있다.
-
 ### map() 함수
 
 map()함수를 통해 반복된 컴포넌트를 쉽게 처리한다.
 
 ```js
-import React from 'react';
+import React from "react";
 
 const IterationSample = () => {
   const names = [1, 2, 3, 4];
@@ -45,16 +43,16 @@ const IterationSample = () => {
 이에 따라 고유 id를 위한 state를 생성하였다.
 
 ```js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const IterationSample = () => {
   const [names, setNames] = useState([
-    { id: 1, text: '눈사람' },
-    { id: 2, text: '얼음' },
-    { id: 3, text: '눈' },
-    { id: 4, text: '바람' },
+    { id: 1, text: "눈사람" },
+    { id: 2, text: "얼음" },
+    { id: 3, text: "눈" },
+    { id: 4, text: "바람" },
   ]);
-  const [inputText, setInputText] = useState('');
+  const [inputText, setInputText] = useState("");
   const [nextId, setNextId] = useState(5);
 
   const nameList = names.map((name) => <li key={name.id}>{name.text}</li>);
