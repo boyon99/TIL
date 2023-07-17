@@ -2,7 +2,7 @@
 
 모든 리액트 컴포넌트에는 라이프사이클이 존재하며 컴포넌트의 수명은 페이지에 렌더링되기 전인 준비 과정에서 시작하여 페이지에서 사라질 때 끝난다. 이때 컴포넌트를 업데이트 전후로 컴포넌트의 라이프사이클 메서드를 통해 처리할 수 있다. 라이프사이클 메서드는 클래스형 컴포넌트에서만 사용할 수 있다. 함수 컴포넌트에서는 `React.memo`나 `useEffect` 등의 Hook을 통해 처리한다.
 
-> [상세코드](../src/7/LifeCycleSample.jsx)에서 확인할 수 있다.
+> [상세코드](https://codesandbox.io/s/react-life-cycle-ey2mwc?file=/src/App.js)에서 확인할 수 있다.
 
 <br/>
 
@@ -12,7 +12,7 @@
 
 라이프사이클은 마운트, 업데이트, 언마운트로 나뉜다. 이 세가지에 포함되지 않는 `componentDidCatch` 메서드가 존재한다.
 
-<img src="./img/recycle-method.png">
+<img src="../img/recycle-method.png">
 
 ### 마운트
 
