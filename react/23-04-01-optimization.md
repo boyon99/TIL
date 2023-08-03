@@ -14,3 +14,10 @@ setArticles(articles.filter((article) => article.id !== id));
 ```
 
 - [ ] 최적화하기 - useMemo, useCallback, useTransition, useDeferrenedValue, react.lazy
+
+- **의존성 배열 / useEffect / React.memo / useCallback / useMemo / Context API**
+  - 리액트에서 렌더링 최적화를 수행하는 법
+  - React.memo를 이용해 컴포넌트 렌더링 최적화하기
+  - 메모이제이션을 통한 최적화 수행하기
+  - useEffect의 의존성 배열 올바르게 다루기
+  - Context API로 컴포넌트에 맥락 전달하기
