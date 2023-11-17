@@ -1,4 +1,5 @@
 ## JS
+
 - [미리 정의된 전역 함수](https://github.com/boyon99/TIL/blob/main/js/22-12-25-predefined-functions.md)
 - [falsy](https://github.com/boyon99/TIL/blob/main/js/23-01-04-falsy.md)
 - [JS 객체의 분류](https://github.com/boyon99/TIL/blob/main/js/23-01-06-built-in-objects.md)
@@ -13,7 +14,6 @@
 - [가비지 컬렉션](https://github.com/boyon99/TIL/blob/main/js/23-03-15-garbage-collection.md)
 - [메모리 누수](https://github.com/boyon99/TIL/blob/main/js/23-03-15-memory-leak.md)
 - [얕은 복사와 깊은 복사](https://github.com/boyon99/TIL/blob/main/js/23-03-15-%EC%96%95%EC%9D%80%EB%B3%B5%EC%82%AC%EC%99%80-%EA%B9%8A%EC%9D%80%EB%B3%B5%EC%82%AC.md)
-
 
 <br/>
 
@@ -225,15 +225,11 @@
 - [Ajax](./23-02-02-Ajax.md)
 - [XMLHttpRequest](./23-02-19-XMLHttpRequest.md)
 
-> 📌 [Ajax 실습 레포](https://github.com/boyon99/Ajax)
-
 `json` `Ajax`
 
 ### 44장
 
 - [REST API](./23-02-03-rest-api.md)
-
-> 📌 [REST API 실습 레포](https://github.com/boyon99/REST-API)
 
 `json` `XMLHttpRequest`
 
