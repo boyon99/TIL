@@ -16,7 +16,7 @@
 
 ### 새 context 만들기
 
-`createContext()`함수를 사용하여 생성한다.
+`createContext()`함수를 사용하여 컨텍스트 객체를 생성한다. 이 객체에는`Provider`와 `consumer`라는 두 가지 주요 컴포넌트가 포함되어 있다.
 
 ```js
 // contexts/color.js
@@ -25,6 +25,8 @@ import { createContext } from "react";
 const ColorContext = createContext({ color: "black" });
 export default ColorContext;
 ```
+
+<img src="../img/context-default.png"/>
 
 ### Consumer 사용하기
 
@@ -102,131 +104,21 @@ const UserContext = createContext();
 #### useContext를 통해 값을 불러온다.
 
 ```jsx
-import { UserContext } from '../App'
-const { value 에 넘겨줬던 키 } = useContext(UserContext)
-```
-
-### 위의 예제에서 Consumer 대신 useContenxt Hook 사용하기
-
-```js
-// App.js
-import React, { createContext } from "react";
-import Detail from "./pages/Detail";
-
-export let Context1 = createContext();
-
-const App = () => {
-  let sendData = [1, 2, 3, 4, 5];
+const Context = () => {
+  const { color } = useContext(MyContext);
 
   return (
-    <>
-      <Context1.Provider value={{ sendData }}>
-        <Detail />
-      </Context1.Provider>
-    </>
+    <div
+      style={{
+        width: "64px",
+        height: "64px",
+        background: color,
+      }}
+    />
   );
 };
+
+export default Context;
 ```
 
-```js
-// Detail.js
-import React, { useContext } from 'react';
-
-import { Context1 } from '../App';
-
-const Detail = () => {
-  let getData = useContext(Context1);
-  console.log(getData); // [1,2,3,4,5]
-
-  return ()
-};
-```
-
-### useContext 와 useReducer 함께 사용하기
-
-```jsx
-// app.js
-import { UserProvider } from "./contexts/UserContext";
-import UserList from "./components/UserList";
-
-function App() {
-  return (
-    <UserProvider>
-      <UserList />
-    </UserProvider>
-  );
-}
-
-export default App;
-```
-
-```jsx
-// contexts/UserContext.jsx
-import React, { createContext, useReducer } from "react";
-import { userReducer } from "../reducers/userReducer";
-import { userData } from "../constants/userData";
-
-export const UserContext = createContext(null);
-
-// 위에서 선언한 두가지 Context 들의 Provider 로 감싸주는 컴포넌트
-export function UserProvider({ children }) {
-  const [state, dispatch] = useReducer(userReducer, userData);
-  return (
-    <UserContext.Provider value={{ state, dispatch }}>
-      {children}
-    </UserContext.Provider>
-  );
-}
-```
-
-```jsx
-// userList.jsx
-import React, { useContext } from "react";
-import { UserContext } from "../contexts/UserContext";
-import UserDetail from "./UserDetail";
-
-function UserList() {
-  const { state: users } = useContext(UserContext);
-
-  return (
-    <div>
-      <h1>리스트 짜잔</h1>
-      {users.map((user) => (
-        <UserDetail key={user.id} user={user} />
-      ))}
-    </div>
-  );
-}
-
-export default UserList;
-```
-
-```jsx
-// userDetail.jsx
-import React, { useContext } from "react";
-import { UserContext } from "../contexts/UserContext";
-
-function UserDetail({ user }) {
-  const { dispatch } = useContext(UserContext);
-
-  return (
-    <div key={user.id}>
-      <p>{user.name}</p>
-      <button
-        onClick={() =>
-          dispatch({ type: "UPDATE", data: { id: user.id, name: "변경됨" } })
-        }
-      >
-        이름 바꾸기
-      </button>
-      <button
-        onClick={() => dispatch({ type: "REMOVE", data: { id: user.id } })}
-      >
-        삭제하기
-      </button>
-    </div>
-  );
-}
-
-export default UserDetail;
-```
+기존에는 consumer 컴포넌트를 생성해야 했는데 useContext를 사용하면 value의 값을 바로 가져올 수 있다.
