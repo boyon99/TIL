@@ -2,7 +2,7 @@
 
 리액트에서 전역적으로 사용할 데이터가 있을 때 유용하며 리덕스, 리액트 라우터, styled-components 등의 라이브러리는 Context API를 기반으로 구현되어 있다.
 
-> [상세코드](https://codesandbox.io/s/react-context-api-oro1ix?file=/src/contexts/color.jsx)에서 확인해볼 수 있다.
+> [상세코드](https://codesandbox.io/s/react-context-api-oro1ix?file=/src/contexts/color.jsx)와 [레포](https://github.com/boyon99/state-management-library/tree/context)에서 구체적인 내용을 확인할 수 있다.
 
 <br/>
 
